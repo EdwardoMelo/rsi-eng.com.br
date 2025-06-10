@@ -44,7 +44,7 @@ const Navbar = () => {
     <AppBar
       position="fixed"
       sx={{
-        bgcolor: "background.default",
+        bgcolor: "black",
         boxShadow: "none",
         height: "fit-content",
         padding: 1,
