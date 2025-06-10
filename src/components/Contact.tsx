@@ -80,7 +80,7 @@ const Contact = () => {
               criar soluções extraordinárias que superarão suas expectativas.
             </Typography>
           </Box>
-          <Box display="flex" gap={2} width="100%">
+          <Box display="flex" sx={{flexDirection: { xs: "column", md: "row" }}} gap={2} width="100%">
             <Box flex={1}>
               <Card
                 sx={{
